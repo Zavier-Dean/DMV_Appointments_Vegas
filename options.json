@@ -1,0 +1,19 @@
+{
+    "month": "November",
+    "location": "1",
+    "type":"2",
+    "valid_months":[
+        "January",
+        "February",
+        "March",
+        "April",
+        "May",
+        "June",
+        "July",
+        "August",
+        "September",
+        "October",
+        "November",
+        "December"
+    ]
+}
