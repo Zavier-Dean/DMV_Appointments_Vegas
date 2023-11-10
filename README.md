@@ -8,21 +8,21 @@
 
 # About 
 - This is a scheduling tool for getting appointments at the Las Vegas DMV. 
-- Based off of the month desired 
-- In most cases, the DMV is so full that the next couple months are completely full, therefore, really only the month is needed 
-**NOTE**: Will update later on with actual times check at a later date 
+- Based on the month desired 
+- In most cases, the DMV is so full that the next couple of months are completely full; therefore, really, only the month is needed 
+**NOTE**: I will update later on with actual times; check at a later date 
 
 ## How to use
-- Download the python file DMV_Appointments.py
-- In the terminal write: pip install selenium
-- Change location and Action needed based on the number system below 
+- Download the files
+- In the terminal, write: pip install selenium
+- Change location and Type needed based on the number system below. Make changes in options.json 
 - Run file 
 - Script will cycle through the website several times until a month desired appears 
 - If a month is found, It will remain open for 2 minutes awaiting to finish filling out your information {Subject to change in further updates}
 - Script will run for 40 attempts 
 - In the terminal, press **ctrl + c** to cancel at anytime
 
-## Location guide 
+## Location Guide 
 - Change the Location number based on which location
   
 1. Carson City 
@@ -32,7 +32,7 @@
 5. Sahara
 6. South Reno
 
-## Action guide
+## Action Guide
 - Change action based on the numbers below
 
 1. ADA - Disabilities Center
@@ -47,11 +47,10 @@
 10. Suspensions (Reinstatements) - Registration/Revenue Recovery
 
 - This selection doesn't really matter, as long as its close to what you need.
-- For example, added a motorcycle endorsement to a current license would be under "Drivers License - Renewal"
+- For example, adding a motorcycle endorsement to a current license would be under "Drivers License - Renewal."
 - **NOTE**: The DMV closes Knowledge tests one hour before they close 
 
-# Developer Notes - What's to come
-- Options will be moved to a JSON file where it can be edited easier 
+# Developer Notes - What's to come 
 - Firefox and Edge support 
 - Time check 
 - More options to cancel actions 
