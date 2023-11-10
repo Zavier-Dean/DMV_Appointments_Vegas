@@ -2,9 +2,9 @@
 
 
 # Required Libraries
-selenium
-Chrome must be installed
-**NOTE**: Firefox and Edge will be updated and added 
+- selenium
+- Chrome must be installed
+- **NOTE**: Firefox and Edge will be updated and added 
 
 # About 
 - This is a scheduling tool for getting appointments at the Las Vegas DMV. 
